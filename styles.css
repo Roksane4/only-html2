@@ -1,0 +1,34 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
+nav {
+    background-color: #a38bea;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid #553a9e;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border: 2px solid #7e63c9;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #7e63c9;
+    color: #fff;
+}
